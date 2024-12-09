@@ -14,7 +14,7 @@ const Pages = () => {
   return (
     <>
     <Navbar></Navbar>
-    <div className="flex gap-4 max-w-7xl mx-auto">
+    <div className="flex gap-5 max-w-7xl mx-auto">
       <div className='flex flex-col gap-5 w-[240px] p-6 bg-white rounded-xl  h-fit shrink-0'>
         <button style={{backgroundColor:activeCategory=="Allproducts"? "fuchsia" : "gray"}} className=' py-3 rounded-2xl  bg-gray-300' onClick={()=>handleclick("Allproducts")}>Allproducts</button>
         <button style={{backgroundColor:activeCategory=="Laptops"? "fuchsia" : "gray"}} className=' py-3 rounded-2xl  bg-gray-300' onClick={()=>handleclick("Laptops")}>Laptops </button>
